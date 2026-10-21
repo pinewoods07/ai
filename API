@@ -1,0 +1,6 @@
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("abirambharathisa/who-writes-ai-code-1-3m-open-source-ai-commits")
+
+print("Path to dataset files:", path)
